@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(../images/banner_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.delivery_number {
+    font-size: 16px;
+}
+.header_banner {
+    position: relative;
+}
+.header_content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(10px, 117px);
+}
+.header_content h3 {
+    font-size: 16px;
+    font-weight: 400;
+    border: 3px dotted #43210b;
+    padding: 7px 11px;
+    font-family: 'Bebas Neue', regular;
+    display: inline;
+    text-transform: uppercase;
+}
+.header_content h1 {
+    font-size: 102px;
+    font-weight: 500;
+    font-family: 'Alfa Slab One', regular;
+    color: #43210b;
+    margin: 14px 0px;
+    text-transform: uppercase;
+}
+.header_content h5 {
+    color: #43210b;
+    font-family: 'Alfa Slab One', regular;
+    font-size: 62px;
+    text-transform: uppercase;
+}
+.nav-item {
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 20px !important;
+    color: #573211;
+    position: relative;
+    font-family: 'Bebas Neue', regular;
+    text-transform: uppercase;
+}
+.banner_img img {
+    position: absolute;
+    width: 62%;
+    top: -110px;
+    right: 0;
+}
+.popular_burger {
+    padding: 100px 0px;
+    background: #FFFFFF;
+}
+.items_img {
+    position: relative;
+}
+.items_img img {
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 18px;
+    left: 3%;
+}
+.overlay h3 {
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', regular;
+    text-transform: uppercase;
+}
+.overlay h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', regular;
+    text-transform: uppercase;
+}
+.left_item {
+    position: relative;
+    margin-bottom: 32px;
+}
+.left_item img {
+    width: 100%;
+}
+.tasty_content{
+    text-align: center;
+}
+.tasty_content h5{
+    background: #FFC234;
+    display: inline;
+    padding: 4px 15px;
+    color: #42200B;
+    text-transform: uppercase;
+}
+.tasty_content h1 {
+    font-size: 51px;
+    margin-top: 24px;
+    font-family: 'Alfa Slab One', regular;
+    font-weight: 700;
+    color: #42200B;
+    text-transform: uppercase;
+}
+.tasty_content p{
+    font-size: 14px !important;
+    line-height: 32px;
+    font-weight: 400;
+    color: gray !important;
+}
+.tasty_content h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    color: #42200B;
+}
+.tasty_content p{
+    color: #3d2514;
+    font-size: 14px;
+}
+.tasty_img{
+    text-align: center;
+    margin: 50px 0;
+}
+.tasty_img img{
+    height: 225px;
+}
+.tasty_img h3{
+    
+text-transform: uppercase;
+    
+color: #42200B;
+    
+font-weight: 700;
+}
+.tasty_img h1{
+    color: #3d2514;
+    text-align: center;
+}
+.tasty_img p{
+    color: #3d2514;
+    text-align: center;
+}
+.order_now{
+    background: #bf2222;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 5px 30px;
+    font-family: 'Alfa Slab One', regular;
+}
+.order_now:hover{
+    background: #971b1b;
+    color: #fff;
+}
+.discover{
+    padding: 100px 0px;
+}
+.carousel_section {
+    padding: 21px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 14px;
+}
+.right_content h3 {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', regular;
+    color: #42200b;
+    text-transform: uppercase;
+}
+.right_content h1 {
+    font-size: 51px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', regular;
+    color: #42200b;
+    text-transform: uppercase;
+}
+.right_content p {
+    margin-top: 28px;
+    font-size: 19px;
+    font-weight: 100;
+    color: gray;
+}
+.left_contant img {
+    width: 100%;
+}
+.owl-dots{
+    display: flex;
+    justify-content: start;
+    margin-top: 70px;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: #dcdcdc;
+    margin: 3px;
+}
+.owl-dots .owl-dot.active span{
+    background-color: #ffc045;
+}
+
+
+.booking_table {
+    position: relative;
+    margin: 20px 0;
+}
+.booking_text {
+    margin-bottom: 60px !important;
+}
+.booking_text h3 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', regular;
+    color: #42200b;
+    text-transform: uppercase;
+}
+.booking_text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', regular;
+    color: #42200b;
+    text-transform: uppercase;
+}
+.contact_form {
+    padding: 10px 0px;
+}
+.input_control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 28px;
+    font-family: 'Bebas Neue', regular;
+}
+::placeholder{
+    color: #42200b;
+    font-family: 'Bebas Neue', regular;
+    text-transform: uppercase;
+}
+.sbtn{
+    width: 100%;
+    padding: 10px;
+    background: #DF1C1C;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.table_overlay .burger {
+     position: absolute;
+     top: -32px;
+     width: 20%;
+     left: 0;
+}
+.table_overlay .bottle {
+    position: absolute;
+    top: 32%;
+    left: 14%;
+    width: 17%;
+}
+.table_overlay .plate {
+    position: absolute;
+    right: 0;
+    width: 17%;
+    bottom: -55%;
+}
+footer {
+    padding: 100px 0px;
+}
+.footer_bg {
+    background-image: url(../images/footer-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 23px;
+}
+.footer_left img {
+    width: 37%;
+    color: #fff;
+    background: #fff;
+}
+.footer_left p {
+    color: white;
+    margin-top: 30px;
+    line-height: 31px;
+}
+.footer_right {
+    color: white;
+    margin-top: 100px;
+}
+.footer_right i {
+    font-size: 26px;
+    margin-top: 10px;
+}
+.footer_right p {
+    display: inline block;
+    display: inline;
+    margin-left: 20px;
+}
+.footer_cont {
+    color: white;
+    margin-top: 150px;
+}
+.social_icon {
+    display: flex;
+    justify-content: end;
+}
+.social_icon i {
+    color: white;
+    margin-left: 25px;
+    font-size: 30px;
+    margin-top: 146px;
+}
